@@ -1,0 +1,57 @@
+# Target directory (compiled Java files)
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Build directories
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Environment and configuration files
+.env
+application.properties
+application.yml
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using Node.js in any part of the project)
+node_modules/
